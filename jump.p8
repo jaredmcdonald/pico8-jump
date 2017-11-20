@@ -144,7 +144,7 @@ end
 function update_snow()
 	for flake in all(snow) do
 		-- usually move down, occasionally drift left
-		if rnd(1) > 0.25 then
+		if rnd(1) > 0.4 then
 			flake.y+=1
 		else
 			flake.x-=1
@@ -578,4 +578,3 @@ __music__
 00 00000000
 00 00000000
 00 00000000
-
